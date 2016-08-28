@@ -1,0 +1,29 @@
+<script type="text/javascript" src="../node_modules/jquery/dist/jquery.js"></script>
+<div>
+  <div>
+    <button id="btn1">Load Module One</button>
+    <button id="btn1">Load Module One</button>
+  </div>
+  <div id="displayer">
+    
+  </div>
+</div>
+<script type="text/javascript">
+  $('#btn1').on('click', function(){
+    $.ajax({
+      url: './module1.html',
+      success: function(data){
+        $('#displayer').html(data);
+      }
+    });
+  });
+
+  $('#btn2').on('click', function(){
+    $.ajax({
+      url: './module2.html',
+      success: function(data){
+        $('#displayer').html(data);
+      }
+    });
+  });
+</script>

@@ -1,0 +1,27 @@
+{
+  "name": "requirejs-example",
+  "version": "1.0.0",
+  "description": "RequireJS usage examples",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huqiang/requirejs-example.git"
+  },
+  "keywords": [
+    "require",
+    "requirejs"
+  ],
+  "author": "huqiang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/huqiang/requirejs-example/issues"
+  },
+  "homepage": "https://github.com/huqiang/requirejs-example#readme",
+  "dependencies": {
+    "jquery": "^3.1.0",
+    "requirejs": "^2.2.0"
+  }
+}
